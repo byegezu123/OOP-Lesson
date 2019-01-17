@@ -1,7 +1,7 @@
 public class MountainBike extends Bicycle {
-    private String suspension;
+    private String suspension; //addition of suspension -- > data encapsulation
 
-    public MountainBike(
+    public MountainBike( //addition of new variables startCadence, startSpeed, startGear
                int startCadence,
                int startSpeed,
                int startGear,
